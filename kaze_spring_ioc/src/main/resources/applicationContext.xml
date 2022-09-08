@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <!--
+    无参构造方法
+    id:唯一标识 class：全限定名称
+    scope:指对象的作用范围
+        singleton:单例的,默认的
+        prototype:多例的
+    -->
+    <!--    <bean id="userDao" class="com.kaze.dao.impl.UserDaoImpl">-->
+    <!--        <property name="user" value="张三"/>-->
+    <!--        <property name="age" value="18"/>-->
+    <!--    </bean>-->
+
+    <bean id="userDao" class="com.kaze.dao.impl.UserDaoImpl">
+        <property name="stringList">
+            <list>
+                <value>aaa</value>
+                <value>bbb</value>
+                <value>ccc</value>
+            </list>
+        </property>
+        <property name="userMap">
+            <map>
+                <entry key="u1"  value-ref="user1"></entry>
+                <entry key="u2" value-ref="user2"></entry>
+            </map>
+        </property>
+        <property name="properties">
+            <props>
+                <prop key="p1">ppp1</prop>
+                <prop key="p2">ppp2</prop>
+                <prop key="p3">ppp3</prop>
+            </props>
+        </property>
+    </bean>
+
+    <bean id="user1" class="com.kaze.domain.User">
+        <property name="name" value="张三"/>
+        <property name="addr" value="广州"/>
+    </bean>
+
+    <bean id="user2" class="com.kaze.domain.User">
+        <property name="name" value="李四"/>
+        <property name="addr" value="深圳"/>
+    </bean>
+
+    <!-- set方法依赖注入   -->
+    <!--    <bean id="userService" class="com.kaze.service.impl.UserServiceImpl">-->
+    <!--        <property name="userDao" ref="userDao"></property>-->
+    <!--    </bean>-->
+
+    <bean id="userService" class="com.kaze.service.impl.UserServiceImpl">
+        <constructor-arg name="userDao" ref="userDao"></constructor-arg>
+    </bean>
+
+    <!--     工厂静态方法   -->
+    <!--    <bean id="userDao" class="com.kaze.factory.StaticFactory" factory-method="getUserdao"></bean>-->
+
+    <!-- 工厂方法    -->
+    <!--    <bean id="factory" class="com.kaze.factory.DynamicFactory"></bean>-->
+    <!--    <bean id="userDao" factory-bean="factory" factory-method="getUserdao"></bean>-->
+
+</beans>
