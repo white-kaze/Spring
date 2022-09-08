@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="82b7262e-02b7-4e1c-a2a2-1a36e371bbfc" name="变更" comment="Spring配置写法">
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kaze_spring_ioc_anno/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kaze_spring_ioc_anno/src/test/java/com/kaze/config/DataSourceConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kaze_spring_ioc_anno/src/test/java/com/kaze/config/SpringConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kaze_spring_ioc_anno/src/test/java/com/kaze/dao/Impl/UserDaoImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kaze_spring_ioc_anno/src/test/java/com/kaze/dao/UserDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kaze_spring_ioc_anno/src/test/java/com/kaze/service/Impl/UserServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kaze_spring_ioc_anno/src/test/java/com/kaze/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kaze_spring_ioc_anno/src/test/java/com/kaze/test/DataSourceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kaze_spring_ioc_anno/src/test/java/com/kaze/web/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kaze_spring_ioc_anno/src/test/resources/applicationContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kaze_spring_ioc_anno/src/test/resources/jdbc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kaze_spring_ioc_anno/target/test-classes/applicationContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kaze_spring_ioc_anno/target/test-classes/com/kaze/dao/Impl/UserDaoImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kaze_spring_ioc_anno/target/test-classes/com/kaze/dao/UserDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kaze_spring_ioc_anno/target/test-classes/com/kaze/service/Impl/UserServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kaze_spring_ioc_anno/target/test-classes/com/kaze/service/UserService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kaze_spring_ioc_anno/target/test-classes/com/kaze/test/DataSourceTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kaze_spring_ioc_anno/target/test-classes/com/kaze/web/UserController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kaze_spring_ioc_anno/target/test-classes/jdbc.properties" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="spring-beans.schema" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="2EQho0uipG8PGLTiuW2iylyayii" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "jdk.selected.JAVA_MODULE": "1.8",
+    "project.structure.last.edited": "项目",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "project.propVCSSupport.CommitDialog",
+    "spring.configuration.checksum": "6b488af19621895bde0c791e233d5910"
+  }
+}]]></component>
+  <component name="RunManager" selected="应用程序.com.kaze.web.UserController">
+    <configuration name="UserController" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.itheima.demo.UserController" />
+      <module name="kaze_spring_ioc" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.kaze.demo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="com.kaze.demo.UserController" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.kaze.demo.UserController" />
+      <module name="kaze_spring_ioc" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.kaze.demo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="com.kaze.web.UserController" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.kaze.web.UserController" />
+      <module name="kaze_spring_ioc_anno" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.kaze.web.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DataSourceTest.test01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="kaze_spring_ioc_anno" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.kaze.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.kaze.test" />
+      <option name="MAIN_CLASS_NAME" value="com.kaze.test.DataSourceTest" />
+      <option name="METHOD_NAME" value="test01" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DataSourceTest.test03" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="kaze_spring_ioc_anno" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.kaze.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.kaze.test" />
+      <option name="MAIN_CLASS_NAME" value="com.kaze.test.DataSourceTest" />
+      <option name="METHOD_NAME" value="test03" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="应用程序.com.kaze.web.UserController" />
+        <item itemvalue="JUnit.DataSourceTest.test01" />
+        <item itemvalue="JUnit.DataSourceTest.test03" />
+        <item itemvalue="应用程序.com.kaze.demo.UserController" />
+        <item itemvalue="应用程序.UserController" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration>C:\Users\Kurumi\AppData\Roaming\Subversion</configuration>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="默认任务">
+      <changelist id="82b7262e-02b7-4e1c-a2a2-1a36e371bbfc" name="变更" comment="" />
+      <created>1662533887400</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1662533887400</updated>
+      <workItem from="1662533888644" duration="2436000" />
+      <workItem from="1662537445500" duration="117000" />
+      <workItem from="1662537797393" duration="8601000" />
+      <workItem from="1662555235831" duration="1450000" />
+      <workItem from="1662601431761" duration="8803000" />
+      <workItem from="1662622957063" duration="1781000" />
+    </task>
+    <task id="LOCAL-00001" summary="Spring配置消息">
+      <created>1662623336200</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1662623336200</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Spring配置消息" />
+    <MESSAGE value="Spring配置写法" />
+    <option name="LAST_COMMIT_MESSAGE" value="Spring配置写法" />
+  </component>
+</project>
